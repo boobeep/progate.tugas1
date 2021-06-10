@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #ff5d65;
+  opacity: 0.9;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-left {
+  float: left;
+  color: #fff;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  transition: all 0.5s;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 250px 0 30px 0;
+  background-image: url(https://www.apperson.com/wp-content/uploads/2019/02/apperson-store.png);
+  background-size: cover;
+  color: #2f5167;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.category-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.category {
+  float: left;
+  width: 25%;
+}
+
+.category-icon {
+  position: relative;
+}
+
+.category-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.item {
+  padding: 80px 80px;
+  background-color: #7FCFFF;
+  cursor: pointer;
+  box-shadow: 0 7px #3f677f;
+  color: black;
+;
+}
+
+.item:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 150px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list li {
+  list-style: none;
+  float: left;
+  padding: 0px 0px 20px 20px;
+}
